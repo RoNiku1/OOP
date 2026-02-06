@@ -16,7 +16,7 @@ asiakas::asiakas(string name, double lR) : kayttotili(name), luottotili(name, lR
 
 bool asiakas::tilisiirto(double sum, asiakas& kohde)
 {
-    cout << "Asiakas tilisiirto" << endl;
+    //cout << "Asiakas tilisiirto" << endl;
     double saldo1 = kayttotili.getBalance();
 
     if ((sum < 0) || (sum > saldo1)){
